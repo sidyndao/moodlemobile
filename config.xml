@@ -5,10 +5,10 @@
         id        = "net.moodlemoot.isegonline"
         versionCode = "1"
         version   = "1.0">
-    <name>ISEGONLINE Mobile</name>
+    <name>iSEG Mobile</name>
 
     <description>
-        ISEGONLINE official app
+        iSEG Mobile official app
     </description>
 
     <author href="http://moodle.com" email="juan@moodle.com">
