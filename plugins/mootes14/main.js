@@ -5,7 +5,7 @@ var templates = [
 ];
 
 define(templates, function (theme, loginForm, program) {
-/*    var plugin = {
+    var plugin = {
         settings: {
             name: "mootes14",
             type: "general",
@@ -20,13 +20,13 @@ define(templates, function (theme, loginForm, program) {
             ["mootes14", "show_program", "showProgram"]
         ],
 
-        showProgram: function() {
-            var tpl = {};
-            var html = MM.tpl.render(program, tpl);
-            MM.panels.show('center', html, {title: MM.lang.s("mootes14")});
-        }
+        //showProgram: function() {
+        //    var tpl = {};
+        //    var html = MM.tpl.render(program, tpl);
+        //    MM.panels.show('center', html, {title: MM.lang.s("mootes14")});
+        //}
     };
-*/
+
     // Inject allways our custom theme.
     $("#mobilecssurl").html(theme);
 
