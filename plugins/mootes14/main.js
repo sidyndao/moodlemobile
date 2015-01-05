@@ -5,7 +5,7 @@ var templates = [
 ];
 
 define(templates, function (theme, loginForm, program) {
-    var plugin = {
+/*    var plugin = {
         settings: {
             name: "mootes14",
             type: "general",
@@ -26,7 +26,7 @@ define(templates, function (theme, loginForm, program) {
             MM.panels.show('center', html, {title: MM.lang.s("mootes14")});
         }
     };
-
+*/
     // Inject allways our custom theme.
     $("#mobilecssurl").html(theme);
 
