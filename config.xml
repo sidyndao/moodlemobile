@@ -5,10 +5,10 @@
         id        = "net.moodlemoot.isegonline"
         versionCode = "383"
         version   = "1.9">
-    <name>Moodle Mobile</name>
+    <name>iSEG Mobile</name>
 
     <description>
-        Moodle Mobile official app
+        iSEG Mobile official app
     </description>
 
     <author href="http://moodle.com" email="juan@moodle.com">
