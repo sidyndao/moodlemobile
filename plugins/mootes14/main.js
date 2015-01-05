@@ -16,9 +16,9 @@ define(templates, function (theme, loginForm, program) {
             }
         },
 
-        routes: [
-            ["mootes14", "show_program", "showProgram"]
-        ],
+        //routes: [
+        //    ["mootes14", "show_program", "showProgram"]
+        //],
 
         //showProgram: function() {
         //    var tpl = {};
