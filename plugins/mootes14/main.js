@@ -1,5 +1,4 @@
 var templates = [
-    "root/externallib/text!root/plugins/mootes14/theme.css",
     "root/externallib/text!root/plugins/mootes14/login.html",
     "root/externallib/text!root/plugins/mootes14/program.html"
 ];
