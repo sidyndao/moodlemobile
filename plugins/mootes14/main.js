@@ -9,7 +9,7 @@ define(templates, function (theme, loginForm, program) {
         settings: {
             name: "mootes14",
             type: "general",
-            menuURL: "#isegmobile",
+            menuURL: "#mootes14",
             icon: "img/ico-network.png",
             lang: {
                 component: "core"
@@ -17,13 +17,13 @@ define(templates, function (theme, loginForm, program) {
         },
 
         routes: [
-            ["isegmobile", "show_program", "showProgram"]
+            ["mootes14", "show_program", "showProgram"]
         ],
 
         showProgram: function() {
             var tpl = {};
             var html = MM.tpl.render(program, tpl);
-            MM.panels.show('center', html, {title: MM.lang.s("isegmobile")});
+            MM.panels.show('center', html, {title: MM.lang.s("mootes14")});
         }
     };
 
