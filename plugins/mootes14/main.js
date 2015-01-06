@@ -7,9 +7,9 @@ var templates = [
 define(templates, function (theme, loginForm, program) {
     var plugin = {
         settings: {
-            name: "isegmobile",
+            name: "mootes14",
             type: "general",
-            menuURL: "#isegmobile",
+            menuURL: "#mootes14",
             icon: "img/info.png",
             lang: {
                 component: "core"
