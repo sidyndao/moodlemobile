@@ -93,9 +93,5 @@
     <gap:plugin name="com.ionic.keyboard" version="1.0.3" />
 
     <access origin="*" />
-    
-    <gap:config-file platform="android" parent="/manifest">
-        <application android:debuggable="false" />
-    </gap:config-file>
 
 </widget>
