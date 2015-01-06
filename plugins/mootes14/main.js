@@ -7,17 +7,17 @@ var templates = [
 define(templates, function (theme, loginForm, program) {
     var plugin = {
         settings: {
-            name: "mootes14",
+            name: "isegmobile",
             type: "general",
             menuURL: "#mootes14",
-            icon: "img/info.png",
+            icon: "img/ico-network.png",
             lang: {
                 component: "core"
             }
         },
 
         routes: [
-            ["isegmobile", "show_program", "showProgram"]
+            ["mootes14", "show_program", "showProgram"]
         ],
 
         showProgram: function() {
