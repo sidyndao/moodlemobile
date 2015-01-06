@@ -16,15 +16,15 @@ define(templates, function (theme, loginForm, program) {
             }
         },
 
-        //routes: [
-        //    ["mootes14", "show_program", "showProgram"]
-        //],
+        routes: [
+            ["mootes14", "show_program", "showProgram"]
+        ],
 
-        //showProgram: function() {
-        //    var tpl = {};
-        //    var html = MM.tpl.render(program, tpl);
-        //    MM.panels.show('center', html, {title: MM.lang.s("mootes14")});
-        //}
+        showProgram: function() {
+            var tpl = {};
+            var html = MM.tpl.render(program, tpl);
+            MM.panels.show('center', html, {title: MM.lang.s("ISEG mobile")});
+        }
     };
 
     // Inject allways our custom theme.
