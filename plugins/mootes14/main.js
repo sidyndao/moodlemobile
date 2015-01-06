@@ -7,23 +7,23 @@ var templates = [
 define(templates, function (theme, loginForm, program) {
     var plugin = {
         settings: {
-            name: "mootes14",
+            name: "isegmobile",
             type: "general",
-            menuURL: "#mootes14",
-            icon: "plugins/events/icon.png",
+            menuURL: "#isegmobile",
+            icon: "img/info.png",
             lang: {
                 component: "core"
             }
         },
 
         routes: [
-            ["mootes14", "show_program", "showProgram"]
+            ["isegmobile", "show_program", "showProgram"]
         ],
 
         showProgram: function() {
             var tpl = {};
             var html = MM.tpl.render(program, tpl);
-            MM.panels.show('center', html, {title: MM.lang.s("ISEG mobile")});
+            MM.panels.show('center', html, {title: MM.lang.s("isegmobile")});
         }
     };
 
